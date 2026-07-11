@@ -1,0 +1,13 @@
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\bin\Debug\net10.0\CommonLibrary.deps.json
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\bin\Debug\net10.0\CommonLibrary.dll
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\bin\Debug\net10.0\CommonLibrary.pdb
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\CommonLibrary.csproj.AssemblyReference.cache
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\CommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\CommonLibrary.AssemblyInfoInputs.cache
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\CommonLibrary.AssemblyInfo.cs
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\CommonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\CommonLibrary.dll
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\refint\CommonLibrary.dll
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\CommonLibrary.pdb
+C:\Users\mmree\Desktop\docker-demo-test\CommonLibrary\obj\Debug\net10.0\ref\CommonLibrary.dll

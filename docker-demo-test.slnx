@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CommonLibrary/CommonLibrary.csproj" />
+  <Project Path="CommonRepo/CommonRepo.csproj" />
+  <Project Path="docker-demo/docker-demo.csproj" />
+</Solution>
