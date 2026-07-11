@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e9edf1;
+  font-family: "Cairo", "Tajawal", sans-serif;
+}

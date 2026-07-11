@@ -1,5 +1,5 @@
 ﻿ 
-using CommonRepo.Domain.Entities; 
+using CommonRepo.Domain.Entities;
 using CommonRepo.Domain.Interfaces;
 using CommonRepo.Infrastructure.Caching;
 using docker_demo.Services.Implementations;
@@ -17,6 +17,7 @@ namespace docker_demo
                 options.Limits.MaxRequestBodySize = 40 * 1024 * 1024; // 40 MB
             });
             services.AddScoped<ISubscriptionService, SubscriptionService>();
+            services.AddSingleton<IWaybillPdfService, WaybillPdfService>();
 
             // Register Quartz scheduler with CleanupPendingStakeholdersJob
 
