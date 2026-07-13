@@ -132,7 +132,7 @@ namespace docker_demo.Services.Implementations
 
         private const string Css = """
             * { box-sizing: border-box; }
-            body { margin: 0; font-family: 'Cairo', 'Segoe UI', Tahoma, Arial, sans-serif; color: #0d2b47; background: #fff; }
+            body { margin: 0; font-family: 'Cairo', sans-serif; color: #0d2b47; background: #fff; }
             .waybill { direction: rtl; padding: 24px 28px 32px; }
             .header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding-bottom: 16px; }
             .logo { font-weight: 800; font-size: 20px; color: #1e4181; }

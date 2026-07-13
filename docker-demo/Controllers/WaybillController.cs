@@ -24,9 +24,9 @@ namespace docker_demo.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> PrintWaybill(int id)
         {
-            var pdfBytes = await _waybillReportService.GeneratePdfByIdAsync(id);
+            var filePath = await _waybillReportService.GeneratePdfByIdAsync(id);
 
-            return File(pdfBytes, "application/pdf", "waybill.pdf");
+            return _Ok(filePath);
         }
     }
 }
