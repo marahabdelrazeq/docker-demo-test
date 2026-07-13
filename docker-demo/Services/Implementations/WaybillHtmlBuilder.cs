@@ -132,23 +132,23 @@ namespace docker_demo.Services.Implementations
 
         private const string Css = """
             * { box-sizing: border-box; }
-            body { margin: 0; font-family: 'Cairo', 'Segoe UI', Tahoma, Arial, sans-serif; color: #1f2937; background: #fff; }
+            body { margin: 0; font-family: 'Cairo', 'Segoe UI', Tahoma, Arial, sans-serif; color: #0d2b47; background: #fff; }
             .waybill { direction: rtl; padding: 24px 28px 32px; }
             .header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding-bottom: 16px; }
-            .logo { font-weight: 800; font-size: 20px; color: #1b5fae; }
-            .title { margin: 0; font-size: 22px; font-weight: 800; color: #16233a; text-align: center; flex: 1; }
-            .seal { max-width: 220px; font-size: 11px; color: #4b5563; text-align: left; }
-            .meta { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid #d7dde3; border-radius: 6px; margin-bottom: 18px; overflow: hidden; }
-            .meta-cell { padding: 10px 14px; border-inline-start: 1px solid #d7dde3; }
+            .logo { font-weight: 800; font-size: 20px; color: #1e4181; }
+            .title { margin: 0; font-size: 22px; font-weight: 800; color: #0d2b47; text-align: center; flex: 1; }
+            .seal { max-width: 220px; font-size: 11px; color: #1f2937; text-align: left; }
+            .meta { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid #e3e3e5; border-radius: 6px; margin-bottom: 18px; overflow: hidden; }
+            .meta-cell { padding: 10px 14px; border-inline-start: 1px solid #e3e3e5; }
             .meta-cell:first-child { border-inline-start: none; }
-            .section { border: 1px solid #d7dde3; border-radius: 6px; margin-bottom: 14px; overflow: hidden; break-inside: avoid; }
-            .section-header { background: #1b5fae; color: #fff; font-weight: 700; font-size: 14px; padding: 8px 14px; }
-            .row { display: grid; border-top: 1px solid #e5e9ee; }
+            .section { border: 1px solid #e3e3e5; border-radius: 6px; margin-bottom: 14px; overflow: hidden; break-inside: avoid; }
+            .section-header { background: #f6f6f6; color: #87722e; font-weight: 700; font-size: 14px; padding: 8px 14px; }
+            .row { display: grid; border-top: 1px solid #e3e3e5; }
             .row:first-child { border-top: none; }
-            .cell { display: flex; align-items: center; gap: 6px; padding: 9px 14px; border-inline-start: 1px solid #e5e9ee; font-size: 13px; }
+            .cell { display: flex; align-items: center; gap: 6px; padding: 9px 14px; border-inline-start: 1px solid #e3e3e5; font-size: 13px; }
             .cell:first-child { border-inline-start: none; }
-            .label { color: #4b5563; font-weight: 700; white-space: nowrap; }
-            .value { color: #111827; font-weight: 400; }
+            .label { color: #0d2b47; font-weight: 700; white-space: nowrap; }
+            .value { color: #0d2b47; font-weight: 400; }
             .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
             .pair .section { margin-bottom: 0; }
             .footer { display: flex; align-items: center; justify-content: space-between; margin-top: 24px; gap: 24px; }
