@@ -45,11 +45,17 @@ namespace docker_demo.Services.Implementations
             {
                 if (_browser is null)
                 {
-                    await new BrowserFetcher().DownloadAsync();
+                    var cacheDir = Environment.GetEnvironmentVariable("PUPPETEER_CACHE_DIR");
+                    var fetcherOptions = string.IsNullOrEmpty(cacheDir)
+                        ? new BrowserFetcherOptions()
+                        : new BrowserFetcherOptions { Path = cacheDir };
+
+                    var installedBrowser = await new BrowserFetcher(fetcherOptions).DownloadAsync();
                     _browser = await Puppeteer.LaunchAsync(new LaunchOptions
                     {
                         Headless = true,
                         Args = ["--no-sandbox"],
+                        ExecutablePath = installedBrowser.GetExecutablePath(),
                     });
                 }
             }

@@ -23,7 +23,7 @@ namespace docker_demo.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> GeneratePdf([FromBody] WaybillPdfRequest request)
+        public async Task<IActionResult> PrintWaybill([FromBody] WaybillPdfRequest request)
         {
             var pdfBytes = await _waybillPdfService.GeneratePdfAsync(request);
 

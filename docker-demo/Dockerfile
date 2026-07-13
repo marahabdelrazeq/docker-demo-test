@@ -2,10 +2,23 @@
 
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
-USER $APP_UID
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
+
+# Runtime shared libraries required by headless Chromium (PuppeteerSharp waybill PDF generation)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates fonts-liberation libasound2t64 libatk-bridge2.0-0 libatk1.0-0 \
+    libcairo2 libcups2 libdbus-1-3 libdrm2 libexpat1 libgbm1 libglib2.0-0 \
+    libnspr4 libnss3 libpango-1.0-0 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 \
+    libxdamage1 libxext6 libxfixes3 libxkbcommon0 libxrandr2 wget xdg-utils \
+    && rm -rf /var/lib/apt/lists/*
+
+# Writable cache dir for the Chromium binary PuppeteerSharp downloads at runtime
+ENV PUPPETEER_CACHE_DIR=/app/.chromium
+RUN mkdir -p /app/.chromium && chown -R $APP_UID:$APP_UID /app
+
+USER $APP_UID
 
 
 # This stage is used to build the service project
@@ -28,5 +41,5 @@ RUN dotnet publish "./docker-demo.csproj" -c $BUILD_CONFIGURATION -o /app/publis
 # This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=publish --chown=$APP_UID:$APP_UID /app/publish .
 ENTRYPOINT ["dotnet", "docker-demo.dll"]
