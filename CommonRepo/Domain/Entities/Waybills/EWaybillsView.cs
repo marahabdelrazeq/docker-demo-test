@@ -1,0 +1,112 @@
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace CommonRepo.Domain.Entities.Waybills;
+
+[Keyless]
+[Table("EWaybillsView")]
+public class EWaybillsView
+{
+    public int Id { get; set; }
+    public string? LoadType { get; set; }
+    public string EWaybillNo { get; set; }
+    public string StatusCode { get; set; }
+    public int CreatedBy { get; set; }
+    public DateTime CreatedDate { get; set; }
+    public string? FirstContainerNumber { get; set; }
+    public string? SeconedContainerNumber { get; set; }
+    public string? CargoType { get; set; }
+    public string? CargoTypeNameForeign { get; set; }
+    public string? CargoTypeNameLocalized { get; set; }
+    public string? TypeofPackaging { get; set; }
+    public string? PackagingTypeNameForeign { get; set; }
+    public string? PackagingTypeNameLocalized { get; set; }
+    public string? Unit { get; set; }
+    public double? UnitValue { get; set; }
+    public long? ValueOfGoods { get; set; }
+    public string? CargoDescription { get; set; }
+    public int? LoadingCountryId { get; set; }
+    public int? LoadingGovernorateId { get; set; }
+    public int? LoadingCityId { get; set; }
+    public int? LoadingSource { get; set; }
+    public string? LoadingSourceNameForeign { get; set; }
+    public string? LoadingSourceNameLocalized { get; set; }
+    public string? LoadingFrom { get; set; }
+    public string? LoadingAddress { get; set; }
+    public DateTime LoadingDate { get; set; }
+    public TimeSpan? LoadingTime { get; set; }
+    public string? LoadingCountryNameForeign { get; set; }
+    public string? LoadingCountryNameLocalized { get; set; }
+    public string? LoadingGovernorateNameForeign { get; set; }
+    public string? LoadingGovernorateNameLocalized { get; set; }
+    public string? LoadingCityNameForeign { get; set; }
+    public string? LoadingCityNameLocalized { get; set; }
+    public string? LoadingFromForeign { get; set; }
+    public string? LoadingFromLocalized { get; set; }
+    public int? DischargingCountryId { get; set; }
+    public int? DischargingGovernorateId { get; set; }
+    public int? DischargingCityId { get; set; }
+    public int? DischargingSource { get; set; }
+    public string? DischargingSourceNameForeign { get; set; }
+    public string? DischargingSourceNameLocalized { get; set; }
+    public string? DischargingFrom { get; set; }
+    public string? DischargingAddress { get; set; }
+    public DateTime? DischargingDate { get; set; }
+    public TimeSpan? DischargingTime { get; set; }
+    public string? DischargingCountryNameForeign { get; set; }
+    public string? DischargingCountryNameLocalized { get; set; }
+    public string? DischargingGovernorateNameForeign { get; set; }
+    public string? DischargingGovernorateNameLocalized { get; set; }
+    public string? DischargingCityNameForeign { get; set; }
+    public string? DischargingCityNameLocalized { get; set; }
+    public string? DischargingFromForeign { get; set; }
+    public string? DischargingFromLocalized { get; set; }
+    public string? LoadTypeForeign { get; set; }
+    public string? LoadTypeLocalized { get; set; }
+    public string? HandlingInstructions { get; set; }
+    public int TransporterId { get; set; }
+    public string? TransporterType { get; set; }
+    public string? TransporterNameForeign { get; set; }
+    public string? TransporterNameLocalized { get; set; }
+    public string? TruckPlateCode { get; set; }
+    public string TruckPlateNumber { get; set; }
+    public string? TruckUsageType { get; set; }
+    public string? TruckUsageTypeLocalized { get; set; }
+    public string? TruckUsageTypeForeign { get; set; }
+    public string TruckPlate { get; set; }
+    public string? TrailerPlateCode { get; set; }
+    public string? TrailerPlateNumber { get; set; }
+    public string? TrailerUsageType { get; set; }
+    public string? TrailerUsageTypeLocalized { get; set; }
+    public string? TrailerUsageTypeForeign { get; set; }
+    public string? TrailerPlate { get; set; }
+    public string DocumentNumber { get; set; }
+    public string? DriverName { get; set; }
+    public string? DriverAreaCode { get; set; }
+    public string? DriverMobileNumber { get; set; }
+    public string? DriverNationality { get; set; }
+    public string? InsuranceTypeClearing { get; set; }
+    public string? InsuranceContractNoClearing { get; set; }
+    public int? InsuranceAmountClearing { get; set; }
+    public string? InsuranceCompanyClearing { get; set; }
+    public DateTime? InsuranceExpiryDateClearing { get; set; }
+    public string? InsuranceTypeTrucking { get; set; }
+    public string? InsuranceContractNoTrucking { get; set; }
+    public int? InsuranceAmountTrucking { get; set; }
+    public string? InsuranceCompanyTrucking { get; set; }
+    public DateTime? InsuranceExpiryDateTrucking { get; set; }
+    public int? DemurrageClearing { get; set; }
+    public int? DemurrageTrucking { get; set; }
+    public int? Price { get; set; }
+    public string? PaymentMethod { get; set; }
+    public int? DownPayment { get; set; }
+    public string? Attachment1 { get; set; }
+    public string? Attachment2 { get; set; }
+    public string? QRCodeImage { get; set; }
+    public int? ClearingCompanyId { get; set; }
+    public string? ClearingCompanyNameForeign { get; set; }
+    public string? ClearingCompanyNameLocalized { get; set; }
+    public string ClearingCompanyName { get; set; }
+    public string? CreatedByNameForeign { get; set; }
+    public string? CreatedByNameLocalized { get; set; }
+}

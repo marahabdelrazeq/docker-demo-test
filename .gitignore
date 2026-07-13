@@ -1,0 +1,14 @@
+# MCP config (contains local secrets/tokens)
+.mcp.json
+
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# PuppeteerSharp downloaded browser binaries
+.chromium/
+**/Chrome/
+**/ChromeHeadlessShell/

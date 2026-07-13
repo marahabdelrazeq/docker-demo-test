@@ -1,6 +1,5 @@
 using CommonLibrary.Controllers;
 using CommonLibrary.RequestInformation;
-using docker_demo.DTOs.WaybillDto;
 using docker_demo.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
@@ -11,21 +10,21 @@ namespace docker_demo.Controllers
     [ApiController]
     public class WaybillController : BaseController
     {
-        private readonly IWaybillPdfService _waybillPdfService;
+        private readonly IWaybillReportService _waybillReportService;
 
-        public WaybillController(IRequestInfoService requestInfoService, IActionContextAccessor actionContextAccessor, IWaybillPdfService waybillPdfService)
+        public WaybillController(IRequestInfoService requestInfoService, IActionContextAccessor actionContextAccessor, IWaybillReportService waybillReportService)
             : base(requestInfoService, actionContextAccessor)
         {
-            _waybillPdfService = waybillPdfService;
+            _waybillReportService = waybillReportService;
         }
 
-        [HttpPost("Pdf")]
+        [HttpGet("Pdf/{id:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> PrintWaybill([FromBody] WaybillPdfRequest request)
+        public async Task<IActionResult> PrintWaybill(int id)
         {
-            var pdfBytes = await _waybillPdfService.GeneratePdfAsync(request);
+            var pdfBytes = await _waybillReportService.GeneratePdfByIdAsync(id);
 
             return File(pdfBytes, "application/pdf", "waybill.pdf");
         }

@@ -15,6 +15,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.10",
+          "PuppeteerSharp": "25.3.3",
           "QRCoder": "1.4.1",
           "Swashbuckle.AspNetCore": "6.9.0"
         },
@@ -706,6 +707,14 @@
           }
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
       "Microsoft.OpenApi/1.6.14": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -807,6 +816,18 @@
           "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "2.2.8.1080"
+          }
+        }
+      },
+      "PuppeteerSharp/25.3.3": {
+        "dependencies": {
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "WebDriverBiDi": "0.0.54"
+        },
+        "runtime": {
+          "lib/net10.0/PuppeteerSharp.dll": {
+            "assemblyVersion": "25.3.3.0",
+            "fileVersion": "25.3.3.0"
           }
         }
       },
@@ -1086,6 +1107,14 @@
           "lib/net5.0/Ulid.dll": {
             "assemblyVersion": "1.2.6.0",
             "fileVersion": "1.2.6.0"
+          }
+        }
+      },
+      "WebDriverBiDi/0.0.54": {
+        "runtime": {
+          "lib/net10.0/WebDriverBiDi.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.54.63"
           }
         }
       },
@@ -1382,6 +1411,13 @@
       "path": "microsoft.identitymodel.tokens/6.35.0",
       "hashPath": "microsoft.identitymodel.tokens.6.35.0.nupkg.sha512"
     },
+    "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s/s20YTVY9r9TPfTrN5g8zPF1YhwxyqO6PxUkrYTGI2B+OGPe9AdajWZrLhFqXIvqIW23fnUE4+ztrUWNU1+9g==",
+      "path": "microsoft.io.recyclablememorystream/3.0.1",
+      "hashPath": "microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512"
+    },
     "Microsoft.OpenApi/1.6.14": {
       "type": "package",
       "serviceable": true,
@@ -1451,6 +1487,13 @@
       "sha512": "sha512-zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
       "path": "pipelines.sockets.unofficial/2.2.8",
       "hashPath": "pipelines.sockets.unofficial.2.2.8.nupkg.sha512"
+    },
+    "PuppeteerSharp/25.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0EeidvVcSnjNtlBNNAv5QxXdEJZnla+mErLMO6kCfaR1jIFDa235aq4W6PPPGy6LiR7fOekBh6nWev7OxCtUIg==",
+      "path": "puppeteersharp/25.3.3",
+      "hashPath": "puppeteersharp.25.3.3.nupkg.sha512"
     },
     "QRCoder/1.4.1": {
       "type": "package",
@@ -1619,6 +1662,13 @@
       "sha512": "sha512-TDfJ/q4nJJ7LTxHErWYXRFs7laAUJhnT7Do+fpxxNg+uQOC1GKWLFuyJMKyMyIxQhFjWNC5XcFbr7R6HP9PFgw==",
       "path": "ulid/1.2.6",
       "hashPath": "ulid.1.2.6.nupkg.sha512"
+    },
+    "WebDriverBiDi/0.0.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yo9iqgBySD7tpwQMk1rgkTGwZaE9gSehirixwtPVFyllsT+qM3POB95SryE3n1g+bZ+/POoSokSbMiS0ETbBog==",
+      "path": "webdriverbidi/0.0.54",
+      "hashPath": "webdriverbidi.0.0.54.nupkg.sha512"
     },
     "CommonLibrary/1.0.0": {
       "type": "project",

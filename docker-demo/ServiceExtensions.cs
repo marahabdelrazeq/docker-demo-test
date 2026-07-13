@@ -18,6 +18,7 @@ namespace docker_demo
             });
             services.AddScoped<ISubscriptionService, SubscriptionService>();
             services.AddSingleton<IWaybillPdfService, WaybillPdfService>();
+            services.AddScoped<IWaybillReportService, WaybillReportService>();
 
             // Register Quartz scheduler with CleanupPendingStakeholdersJob
 

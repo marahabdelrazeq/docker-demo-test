@@ -1,4 +1,5 @@
 ﻿using CommonRepo.Domain.Entities.Subscriptions;
+using CommonRepo.Domain.Entities.Waybills;
 using CommonRepo.Infrastructure.Caching.Models;
 using docker_demo.Models;
 using Microsoft.Data.SqlClient;
@@ -22,6 +23,8 @@ namespace CommonRepo.Persistence.Context
         public virtual DbSet<Subscription> Subscriptions { get; set; }
 
         public virtual DbSet<SubscriptionsView> SubscriptionsViews { get; set; }
+
+        public virtual DbSet<EWaybillsView> EWaybillsViews { get; set; }
 
         public DbSet<TablesWithViews> TablesWiths { get; set; }
         public DbSet<KeyViews> KeyViews { get; set; }

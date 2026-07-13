@@ -30,6 +30,8 @@ public static class InfrastructureServiceExtensions
 
         services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
 
+        services.AddScoped<IEWaybillsViewRepository, EWaybillsViewRepository>();
+
 
 
 

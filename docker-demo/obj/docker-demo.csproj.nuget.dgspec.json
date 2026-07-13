@@ -857,6 +857,10 @@
               "target": "Package",
               "version": "[1.23.0, )"
             },
+            "PuppeteerSharp": {
+              "target": "Package",
+              "version": "[25.3.3, )"
+            },
             "QRCoder": {
               "target": "Package",
               "version": "[1.4.1, )"
