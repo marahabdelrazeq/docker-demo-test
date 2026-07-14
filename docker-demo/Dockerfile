@@ -15,10 +15,18 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libxdamage1 libxext6 libxfixes3 libxkbcommon0 libxrandr2 wget xdg-utils \
     && rm -rf /var/lib/apt/lists/*
 
-# Cairo typeface (Google Fonts, OFL-licensed) used by the waybill PDF template
+# Cairo typeface (Google Fonts, OFL-licensed) used by the waybill PDF template.
+# Static per-weight instances are used instead of the variable font: Firefox's
+# PDF.js renders Arabic shaping incorrectly (isolated/reordered letters) with
+# the variable Cairo[slnt,wght].ttf embedded in a PDF, even though the same
+# font renders fine in Chromium/other viewers.
 RUN mkdir -p /usr/share/fonts/truetype/cairo \
-    && wget -q -O "/usr/share/fonts/truetype/cairo/Cairo.ttf" \
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cairo/Cairo%5Bslnt%2Cwght%5D.ttf" \
+    && wget -q -O "/usr/share/fonts/truetype/cairo/Cairo-Regular.ttf" \
+    "https://fonts.gstatic.com/s/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a1PiKQ.ttf" \
+    && wget -q -O "/usr/share/fonts/truetype/cairo/Cairo-Bold.ttf" \
+    "https://fonts.gstatic.com/s/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5a1PiKQ.ttf" \
+    && wget -q -O "/usr/share/fonts/truetype/cairo/Cairo-ExtraBold.ttf" \
+    "https://fonts.gstatic.com/s/cairo/v31/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5a1PiKQ.ttf" \
     && fc-cache -f
 
 # Writable cache dir for the Chromium binary PuppeteerSharp downloads at runtime
