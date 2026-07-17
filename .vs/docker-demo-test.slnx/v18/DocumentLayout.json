@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFF88867-1A71-BC00-87FA-BAD61F151FF8}|CommonRepo\\CommonRepo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\commonrepo\\domain\\entities\\waybills\\ewaybillsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFF88867-1A71-BC00-87FA-BAD61F151FF8}|CommonRepo\\CommonRepo.csproj|solutionrelative:commonrepo\\domain\\entities\\waybills\\ewaybillsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\services\\implementations\\waybillpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\services\\implementations\\waybillpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\services\\interfaces\\iwaybillpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\services\\interfaces\\iwaybillpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\services\\implementations\\waybillreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\services\\implementations\\waybillreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\controllers\\waybillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\controllers\\waybillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\services\\interfaces\\iwaybillpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\services\\interfaces\\iwaybillpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\services\\implementations\\waybillhtmlbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\services\\implementations\\waybillhtmlbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\appsettings.dev.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\appsettings.dev.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\services\\implementations\\waybillviewmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\services\\implementations\\waybillviewmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\services\\interfaces\\iwaybillreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\services\\interfaces\\iwaybillreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\controllers\\waybillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|solutionrelative:docker-demo\\controllers\\waybillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF88867-1A71-BC00-87FA-BAD61F151FF8}|CommonRepo\\CommonRepo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\commonrepo\\domain\\entities\\waybills\\ewaybillsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFF88867-1A71-BC00-87FA-BAD61F151FF8}|CommonRepo\\CommonRepo.csproj|solutionrelative:commonrepo\\domain\\entities\\waybills\\ewaybillsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3BD6AD3-898B-21CB-58B1-E9FED87CD4BD}|docker-demo\\docker-demo.csproj|c:\\users\\mmree\\desktop\\docker-demo-test\\docker-demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,23 +134,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WaybillViewMapper.cs",
+              "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\WaybillViewMapper.cs",
+              "RelativeDocumentMoniker": "docker-demo\\Services\\Implementations\\WaybillViewMapper.cs",
+              "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\WaybillViewMapper.cs",
+              "RelativeToolTip": "docker-demo\\Services\\Implementations\\WaybillViewMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T07:11:02.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IWaybillReportService.cs",
+              "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Interfaces\\IWaybillReportService.cs",
+              "RelativeDocumentMoniker": "docker-demo\\Services\\Interfaces\\IWaybillReportService.cs",
+              "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Interfaces\\IWaybillReportService.cs",
+              "RelativeToolTip": "docker-demo\\Services\\Interfaces\\IWaybillReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T06:26:09.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "WaybillHtmlBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\WaybillHtmlBuilder.cs",
+              "RelativeDocumentMoniker": "docker-demo\\Services\\Implementations\\WaybillHtmlBuilder.cs",
+              "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\WaybillHtmlBuilder.cs",
+              "RelativeToolTip": "docker-demo\\Services\\Implementations\\WaybillHtmlBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T12:30:57.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Dev.json",
+              "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\appsettings.Dev.json",
+              "RelativeDocumentMoniker": "docker-demo\\appsettings.Dev.json",
+              "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\appsettings.Dev.json",
+              "RelativeToolTip": "docker-demo\\appsettings.Dev.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-13T10:01:07.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WaybillReportService.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\WaybillReportService.cs",
               "RelativeDocumentMoniker": "docker-demo\\Services\\Implementations\\WaybillReportService.cs",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\WaybillReportService.cs",
               "RelativeToolTip": "docker-demo\\Services\\Implementations\\WaybillReportService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBgAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T09:09:31.63Z"
+              "WhenOpened": "2026-07-13T09:09:31.63Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "EWaybillsView.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonRepo\\Domain\\Entities\\Waybills\\EWaybillsView.cs",
               "RelativeDocumentMoniker": "CommonRepo\\Domain\\Entities\\Waybills\\EWaybillsView.cs",
@@ -147,15 +216,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WaybillPdfService.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\WaybillPdfService.cs",
               "RelativeDocumentMoniker": "docker-demo\\Services\\Implementations\\WaybillPdfService.cs",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\WaybillPdfService.cs",
               "RelativeToolTip": "docker-demo\\Services\\Implementations\\WaybillPdfService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T13:21:33.593Z"
+              "WhenOpened": "2026-07-11T13:21:33.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -165,37 +235,40 @@
               "RelativeDocumentMoniker": "docker-demo\\Services\\Interfaces\\IWaybillPdfService.cs",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Interfaces\\IWaybillPdfService.cs",
               "RelativeToolTip": "docker-demo\\Services\\Interfaces\\IWaybillPdfService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T15:08:06.116Z"
+              "WhenOpened": "2026-07-11T15:08:06.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "WaybillController.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Controllers\\WaybillController.cs",
               "RelativeDocumentMoniker": "docker-demo\\Controllers\\WaybillController.cs",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Controllers\\WaybillController.cs",
               "RelativeToolTip": "docker-demo\\Controllers\\WaybillController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIA5wBoAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T13:21:15.504Z"
+              "WhenOpened": "2026-07-11T13:21:15.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.Local.json",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\appsettings.Local.json",
               "RelativeDocumentMoniker": "docker-demo\\appsettings.Local.json",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\appsettings.Local.json",
               "RelativeToolTip": "docker-demo\\appsettings.Local.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-11T12:51:04.221Z"
+              "WhenOpened": "2026-06-11T12:51:04.221Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "SubscriptionController.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Controllers\\SubscriptionController.cs",
               "RelativeDocumentMoniker": "docker-demo\\Controllers\\SubscriptionController.cs",
@@ -203,11 +276,12 @@
               "RelativeToolTip": "docker-demo\\Controllers\\SubscriptionController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-12T08:32:06.361Z"
+              "WhenOpened": "2026-07-12T08:32:06.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Dockerfile",
               "RelativeDocumentMoniker": "docker-demo\\Dockerfile",
@@ -215,11 +289,12 @@
               "RelativeToolTip": "docker-demo\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-06-25T13:53:33.564Z"
+              "WhenOpened": "2026-06-25T13:53:33.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Program.cs",
               "RelativeDocumentMoniker": "docker-demo\\Program.cs",
@@ -227,35 +302,38 @@
               "RelativeToolTip": "docker-demo\\Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAMwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T14:04:18.709Z"
+              "WhenOpened": "2026-06-12T14:04:18.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "InfrastructureServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonRepo\\Infrastructure\\InfrastructureServiceExtensions.cs",
               "RelativeDocumentMoniker": "CommonRepo\\Infrastructure\\InfrastructureServiceExtensions.cs",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonRepo\\Infrastructure\\InfrastructureServiceExtensions.cs",
               "RelativeToolTip": "CommonRepo\\Infrastructure\\InfrastructureServiceExtensions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:46:56.024Z"
+              "WhenOpened": "2026-06-25T16:46:56.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "SubscriptionService.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\SubscriptionService.cs",
               "RelativeDocumentMoniker": "docker-demo\\Services\\Implementations\\SubscriptionService.cs",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Services\\Implementations\\SubscriptionService.cs",
               "RelativeToolTip": "docker-demo\\Services\\Implementations\\SubscriptionService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T15:04:07.144Z"
+              "WhenOpened": "2026-06-25T15:04:07.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "docker-demo\\Properties\\launchSettings.json",
@@ -263,11 +341,12 @@
               "RelativeToolTip": "docker-demo\\Properties\\launchSettings.json",
               "ViewState": "AgIAACMAAAAAAAAAAAAkwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-12T14:23:09.788Z"
+              "WhenOpened": "2026-06-12T14:23:09.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "SubscriptionsView.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonRepo\\Domain\\Entities\\Subscriptions\\SubscriptionsView.cs",
               "RelativeDocumentMoniker": "CommonRepo\\Domain\\Entities\\Subscriptions\\SubscriptionsView.cs",
@@ -275,23 +354,25 @@
               "RelativeToolTip": "CommonRepo\\Domain\\Entities\\Subscriptions\\SubscriptionsView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T07:39:33.434Z"
+              "WhenOpened": "2026-06-14T07:39:33.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "docker-demo\\ServiceExtensions.cs",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\ServiceExtensions.cs",
               "RelativeToolTip": "docker-demo\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T09:10:11.165Z"
+              "WhenOpened": "2026-06-25T09:10:11.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "ApplicationServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonRepo\\Application\\ApplicationServiceExtensions.cs",
               "RelativeDocumentMoniker": "CommonRepo\\Application\\ApplicationServiceExtensions.cs",
@@ -299,11 +380,12 @@
               "RelativeToolTip": "CommonRepo\\Application\\ApplicationServiceExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T09:05:25.113Z"
+              "WhenOpened": "2026-06-25T09:05:25.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CommonLibrary.csproj",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonLibrary\\CommonLibrary.csproj",
               "RelativeDocumentMoniker": "CommonLibrary\\CommonLibrary.csproj",
@@ -311,11 +393,12 @@
               "RelativeToolTip": "CommonLibrary\\CommonLibrary.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-14T07:52:50.087Z"
+              "WhenOpened": "2026-06-14T07:52:50.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonRepo\\Domain\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "CommonRepo\\Domain\\Interfaces\\IRepository.cs",
@@ -323,11 +406,12 @@
               "RelativeToolTip": "CommonRepo\\Domain\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T07:50:23.963Z"
+              "WhenOpened": "2026-06-14T07:50:23.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "CommonRepo.csproj",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonRepo\\CommonRepo.csproj",
               "RelativeDocumentMoniker": "CommonRepo\\CommonRepo.csproj",
@@ -335,11 +419,12 @@
               "RelativeToolTip": "CommonRepo\\CommonRepo.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-25T07:12:33.643Z"
+              "WhenOpened": "2026-06-25T07:12:33.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "SubscriptionDTO.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\DTOs\\SubscriptionDto\\SubscriptionDTO.cs",
               "RelativeDocumentMoniker": "docker-demo\\DTOs\\SubscriptionDto\\SubscriptionDTO.cs",
@@ -347,11 +432,12 @@
               "RelativeToolTip": "docker-demo\\DTOs\\SubscriptionDto\\SubscriptionDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T06:19:54.787Z"
+              "WhenOpened": "2026-06-21T06:19:54.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "ISubscriptionRepository.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonRepo\\Domain\\Interfaces\\SubscritionsIRepos\\ISubscriptionRepository.cs",
               "RelativeDocumentMoniker": "CommonRepo\\Domain\\Interfaces\\SubscritionsIRepos\\ISubscriptionRepository.cs",
@@ -359,11 +445,12 @@
               "RelativeToolTip": "CommonRepo\\Domain\\Interfaces\\SubscritionsIRepos\\ISubscriptionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T07:45:19.258Z"
+              "WhenOpened": "2026-06-14T07:45:19.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonLibrary\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "CommonLibrary\\Controllers\\BaseController.cs",
@@ -371,11 +458,12 @@
               "RelativeToolTip": "CommonLibrary\\Controllers\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T11:17:51.439Z"
+              "WhenOpened": "2026-06-17T11:17:51.439Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "RequestInfoService.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonLibrary\\RequestInformation\\RequestInfoService.cs",
               "RelativeDocumentMoniker": "CommonLibrary\\RequestInformation\\RequestInfoService.cs",
@@ -383,11 +471,12 @@
               "RelativeToolTip": "CommonLibrary\\RequestInformation\\RequestInfoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T10:33:38.803Z"
+              "WhenOpened": "2026-06-17T10:33:38.803Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "FileUploadUtility.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonLibrary\\Utilities\\FileHelpers\\FileUploadUtility.cs",
               "RelativeDocumentMoniker": "CommonLibrary\\Utilities\\FileHelpers\\FileUploadUtility.cs",
@@ -395,11 +484,12 @@
               "RelativeToolTip": "CommonLibrary\\Utilities\\FileHelpers\\FileUploadUtility.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T11:29:39.053Z"
+              "WhenOpened": "2026-06-17T11:29:39.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "IRequestInfoService.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonLibrary\\RequestInformation\\IRequestInfoService.cs",
               "RelativeDocumentMoniker": "CommonLibrary\\RequestInformation\\IRequestInfoService.cs",
@@ -407,11 +497,12 @@
               "RelativeToolTip": "CommonLibrary\\RequestInformation\\IRequestInfoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T10:32:53.666Z"
+              "WhenOpened": "2026-06-17T10:32:53.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "RequestInfo.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonLibrary\\RequestInformation\\RequestInfo.cs",
               "RelativeDocumentMoniker": "CommonLibrary\\RequestInformation\\RequestInfo.cs",
@@ -419,11 +510,12 @@
               "RelativeToolTip": "CommonLibrary\\RequestInformation\\RequestInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T10:33:18.834Z"
+              "WhenOpened": "2026-06-17T10:33:18.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "GridDataFilter.cs",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonLibrary\\Pagination\\GridDataFilter.cs",
               "RelativeDocumentMoniker": "CommonLibrary\\Pagination\\GridDataFilter.cs",
@@ -431,18 +523,20 @@
               "RelativeToolTip": "CommonLibrary\\Pagination\\GridDataFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T07:53:18.645Z"
+              "WhenOpened": "2026-06-14T07:53:18.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "docker-demo",
               "DocumentMoniker": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\docker-demo.csproj",
               "RelativeDocumentMoniker": "docker-demo\\docker-demo.csproj",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\docker-demo\\docker-demo.csproj",
               "RelativeToolTip": "docker-demo\\docker-demo.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-12T14:22:50.677Z"
+              "WhenOpened": "2026-06-12T14:22:50.677Z",
+              "EditorCaption": ""
             }
           ]
         }

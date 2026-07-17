@@ -130,8 +130,7 @@
               "RelativeToolTip": "docker-demo\\Services\\Implementations\\WaybillReportService.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAqwBgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T09:09:31.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-13T09:09:31.63Z"
             },
             {
               "$type": "Document",
@@ -141,7 +140,7 @@
               "RelativeDocumentMoniker": "CommonRepo\\Domain\\Entities\\Waybills\\EWaybillsView.cs",
               "ToolTip": "C:\\Users\\mmree\\Desktop\\docker-demo-test\\CommonRepo\\Domain\\Entities\\Waybills\\EWaybillsView.cs",
               "RelativeToolTip": "CommonRepo\\Domain\\Entities\\Waybills\\EWaybillsView.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA6wE4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAA2wDMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-13T08:57:04.857Z",
               "EditorCaption": ""
@@ -156,8 +155,7 @@
               "RelativeToolTip": "docker-demo\\Services\\Implementations\\WaybillPdfService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T13:21:33.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-11T13:21:33.593Z"
             },
             {
               "$type": "Document",
@@ -169,8 +167,7 @@
               "RelativeToolTip": "docker-demo\\Services\\Interfaces\\IWaybillPdfService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T15:08:06.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-11T15:08:06.116Z"
             },
             {
               "$type": "Document",
@@ -182,8 +179,7 @@
               "RelativeToolTip": "docker-demo\\Controllers\\WaybillController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAIA5wBoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T13:21:15.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-11T13:21:15.504Z"
             },
             {
               "$type": "Document",
@@ -195,8 +191,7 @@
               "RelativeToolTip": "docker-demo\\appsettings.Local.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-11T12:51:04.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T12:51:04.221Z"
             },
             {
               "$type": "Document",
@@ -208,8 +203,7 @@
               "RelativeToolTip": "docker-demo\\Controllers\\SubscriptionController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-12T08:32:06.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-12T08:32:06.361Z"
             },
             {
               "$type": "Document",
@@ -221,8 +215,7 @@
               "RelativeToolTip": "docker-demo\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-06-25T13:53:33.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T13:53:33.564Z"
             },
             {
               "$type": "Document",
@@ -234,8 +227,7 @@
               "RelativeToolTip": "docker-demo\\Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAMwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T14:04:18.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T14:04:18.709Z"
             },
             {
               "$type": "Document",
@@ -259,8 +251,7 @@
               "RelativeToolTip": "docker-demo\\Services\\Implementations\\SubscriptionService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA1wBAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T15:04:07.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T15:04:07.144Z"
             },
             {
               "$type": "Document",

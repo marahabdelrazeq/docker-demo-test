@@ -7,13 +7,24 @@ namespace docker_demo.Services.Implementations
 {
     public class WaybillPdfService : IWaybillPdfService, IDisposable
     {
+        private readonly IConfiguration _configuration;
         private readonly SemaphoreSlim _initLock = new(1, 1);
+        private readonly SemaphoreSlim _logoLock = new(1, 1);
         private IBrowser? _browser;
+        private bool _logosLoaded;
+        private string? _primaryLogoDataUri;
+        private string? _secondaryLogoDataUri;
+
+        public WaybillPdfService(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
 
         public async Task<byte[]> GeneratePdfAsync(WaybillPdfRequest request)
         {
             var browser = await GetBrowserAsync();
-            var html = WaybillHtmlBuilder.Build(request);
+            await EnsureLogosLoadedAsync();
+            var html = WaybillHtmlBuilder.Build(request, _primaryLogoDataUri, _secondaryLogoDataUri);
 
             await using var page = await browser.NewPageAsync();
             await page.SetJavaScriptEnabledAsync(false);
@@ -70,10 +81,53 @@ namespace docker_demo.Services.Implementations
             return _browser;
         }
 
+        private async Task EnsureLogosLoadedAsync()
+        {
+            if (_logosLoaded)
+            {
+                return;
+            }
+
+            await _logoLock.WaitAsync();
+            try
+            {
+                if (!_logosLoaded)
+                {
+                    _primaryLogoDataUri = await TryLoadLogoAsync(_configuration["PdfDocSettings:PrimaryLogoPath"]);
+                    _secondaryLogoDataUri = await TryLoadLogoAsync(_configuration["PdfDocSettings:SecondaryLogoPath"]);
+                    _logosLoaded = true;
+                }
+            }
+            finally
+            {
+                _logoLock.Release();
+            }
+        }
+
+        private static async Task<string?> TryLoadLogoAsync(string? path)
+        {
+            if (string.IsNullOrWhiteSpace(path) || !File.Exists(path))
+            {
+                return null;
+            }
+
+            var mimeType = Path.GetExtension(path).ToLowerInvariant() switch
+            {
+                ".png" => "image/png",
+                ".jpg" or ".jpeg" => "image/jpeg",
+                ".svg" => "image/svg+xml",
+                _ => "image/png",
+            };
+
+            var bytes = await File.ReadAllBytesAsync(path);
+            return $"data:{mimeType};base64,{Convert.ToBase64String(bytes)}";
+        }
+
         public void Dispose()
         {
             _browser?.CloseAsync().GetAwaiter().GetResult();
             _initLock.Dispose();
+            _logoLock.Dispose();
         }
     }
 }

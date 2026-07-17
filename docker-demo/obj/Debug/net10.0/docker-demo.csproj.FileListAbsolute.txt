@@ -190,4 +190,3 @@ C:\Users\mmree\Desktop\docker-demo-test\docker-demo\bin\Debug\net10.0\Microsoft.
 C:\Users\mmree\Desktop\docker-demo-test\docker-demo\bin\Debug\net10.0\PuppeteerSharp.dll
 C:\Users\mmree\Desktop\docker-demo-test\docker-demo\bin\Debug\net10.0\WebDriverBiDi.dll
 C:\Users\mmree\Desktop\docker-demo-test\docker-demo\obj\Debug\net10.0\docker-demo.sourcelink.json
-C:\Users\mmree\Desktop\docker-demo-test\docker-demo\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

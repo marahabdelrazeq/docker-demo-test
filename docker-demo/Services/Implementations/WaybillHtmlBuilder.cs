@@ -17,8 +17,16 @@ namespace docker_demo.Services.Implementations
         private static string Section(string title, string rowsHtml) =>
             $"<div class=\"section\"><div class=\"section-header\">{E(title)}</div><div class=\"section-body\">{rowsHtml}</div></div>";
 
-        public static string Build(WaybillPdfRequest r)
+        public static string Build(WaybillPdfRequest r, string? primaryLogoDataUri = null, string? secondaryLogoDataUri = null)
         {
+            var primaryLogo = primaryLogoDataUri is null
+                ? "<div class=\"logo\">نافذ</div>"
+                : $"<img class=\"logo-img\" src=\"{E(primaryLogoDataUri)}\" alt=\"نافذ\" />";
+
+            var secondaryLogo = secondaryLogoDataUri is null
+                ? "<div class=\"seal\">وزارة النقل والاتصالات وتقنية المعلومات</div>"
+                : $"<img class=\"seal-img\" src=\"{E(secondaryLogoDataUri)}\" alt=\"MTCIT\" />";
+
             var sb = new StringBuilder();
 
             sb.Append(Section("معلومات الوثيقة", string.Concat(
@@ -104,9 +112,9 @@ namespace docker_demo.Services.Implementations
                 <body>
                 <div class="waybill">
                     <header class="header">
-                    <div class="logo">نافذ</div>
+                    {{primaryLogo}}
                     <h1 class="title">طباعة وثيقة نقل</h1>
-                    <div class="seal">وزارة النقل والاتصالات وتقنية المعلومات</div>
+                    {{secondaryLogo}}
                     </header>
                     <div class="meta">
                     <div class="meta-cell">{{Cell("تاريخ الطباعة", r.Meta.PrintDate)}}</div>
@@ -134,21 +142,23 @@ namespace docker_demo.Services.Implementations
             * { box-sizing: border-box; }
             body { margin: 0; font-family: 'Cairo', sans-serif; color: #0d2b47; background: #fff; }
             .waybill { direction: rtl; padding: 24px 28px 32px; }
-            .header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding-bottom: 16px; }
+            .header { display: flex; align-items: center; justify-content: center; gap: 24px; padding-bottom: 16px; text-align: center; }
             .logo { font-weight: 800; font-size: 20px; color: #1e4181; }
-            .title { margin: 0; font-size: 22px; font-weight: 800; color: #0d2b47; text-align: center; flex: 1; }
-            .seal { max-width: 220px; font-size: 11px; color: #1f2937; text-align: left; }
+            .logo-img { height: 44px; width: auto; }
+            .title { margin: 0; font-size: 22px; font-weight: 800; color: #0d2b47; }
+            .seal { max-width: 220px; font-size: 11px; color: #1f2937; }
+            .seal-img { height: 44px; width: auto; max-width: 220px; object-fit: contain; }
             .meta { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid #e3e3e5; border-radius: 6px; margin-bottom: 18px; overflow: hidden; }
             .meta-cell { padding: 10px 14px; border-inline-start: 1px solid #e3e3e5; }
             .meta-cell:first-child { border-inline-start: none; }
             .section { border: 1px solid #e3e3e5; border-radius: 6px; margin-bottom: 14px; overflow: hidden; break-inside: avoid; }
-            .section-header { background: #f6f6f6; color: #87722e; font-weight: 700; font-size: 14px; padding: 8px 14px; }
+            .section-header { background: #f6f6f6; color: #87722e; font-weight: 700; font-size: 14px; padding: 8px 14px; text-align: center; }
             .row { display: grid; border-top: 1px solid #e3e3e5; }
             .row:first-child { border-top: none; }
             .cell { display: flex; align-items: center; gap: 6px; padding: 9px 14px; border-inline-start: 1px solid #e3e3e5; font-size: 13px; }
             .cell:first-child { border-inline-start: none; }
             .label { color: #0d2b47; font-weight: 700; white-space: nowrap; }
-            .value { color: #0d2b47; font-weight: 400; }
+            .value { color: #0d2b47; font-weight: 400; white-space: nowrap; }
             .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
             .pair .section { margin-bottom: 0; }
             .footer { display: flex; align-items: center; justify-content: space-between; margin-top: 24px; gap: 24px; }
