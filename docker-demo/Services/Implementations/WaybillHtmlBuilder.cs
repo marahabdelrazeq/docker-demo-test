@@ -135,9 +135,9 @@ namespace docker_demo.Services.Implementations
             body { margin: 0; font-family: 'Cairo', sans-serif; color: #0d2b47; background: #fff; }
             .waybill { direction: rtl; padding: 24px 28px 32px; }
             .header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding-bottom: 16px; }
-            .logo { font-weight: 800; font-size: 20px; color: #1e4181; }
+            .logo { font-weight: 800; font-size: 17px; color: #1e4181; }
             .title { margin: 0; font-size: 22px; font-weight: 800; color: #0d2b47; text-align: center; flex: 1; }
-            .seal { max-width: 220px; font-size: 11px; color: #1f2937; text-align: left; }
+            .seal { max-width: 190px; font-size: 9px; color: #1f2937; text-align: left; }
             .meta { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid #e3e3e5; border-radius: 6px; margin-bottom: 18px; overflow: hidden; }
             .meta-cell { padding: 10px 14px; border-inline-start: 1px solid #e3e3e5; }
             .meta-cell:first-child { border-inline-start: none; }
